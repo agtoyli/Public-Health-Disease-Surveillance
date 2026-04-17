@@ -1,4 +1,4 @@
-# Public-Health-Disease-Surveillance
+# Public Health Disease Surveillance Architecture
 In this semester-long project, I developed a model architecture for public health surveillance for COVID-19 in Michigan's Upper Peninsula, implementing virtual machines, OpenEMR, Synthea, and Hapi-FHIR.
 
 ![Architecture](Architecture-Diagram.png)
