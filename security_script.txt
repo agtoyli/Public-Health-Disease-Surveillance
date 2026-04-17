@@ -1,0 +1,19 @@
+
+
+#!/user/bin/bash
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install unattended-upgrades
+sudo dpkg-reconfigure --priority=low unattended-upgrades
+
+sudo apt-get install ufw
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ssh
+sudo ufw enable
+
+sudo nano /etc/apache2/conf-available/security.conf
+
+sudo a2enconf security
+sudo systemctl restart apache2
