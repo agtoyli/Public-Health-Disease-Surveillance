@@ -1,2 +1,2 @@
 # Public-Health-Disease-Surveillance
-Developed architecture simulating a public health disease surveillance network
+In this semester-long project, I developed a model architecture for public health surveillance for COVID-19, implementing virtual machines, OpenEMR, Synthea, and Hapi-FHIR.
