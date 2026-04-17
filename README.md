@@ -9,7 +9,7 @@ In this semester-long project, I developed a model architecture for public healt
 For this project, I configured and utilized five Ubuntu Linux machines on VMWare vSphere. As seen in the schematic above, four represented hospitals across the Upper Peninsula, and one served as a health information exchange.
 
 ### OpenEMR
-For each hospital, I successfully deployed and configured OpenEMR v6.0.0 on an Ubuntu Server environment, implementing a full LAMP stack (Linux, Apache, MySQL, and PHP). The database was secured via mysql_secure_installation and managing service-level permissions for the user. I finalized the deployment by executing the web-based setup utility, ensuring the application was fully integrated with the backend database.
+For each hospital, I successfully deployed and configured OpenEMR v6.0.0 on an Ubuntu Server environment, implementing a full LAMP stack (Linux, Apache, MySQL, and PHP). The database was [secured](https://github.com/agtoyli/Public-Health-Disease-Surveillance/blob/main/security_script.txt) via mysql_secure_installation and managing service-level permissions for the user. I finalized the deployment by executing the web-based setup utility, ensuring the application was fully integrated with the backend database.
 
 ### Synthea
 I generated synthetic patient data for each hospital using Synthea and the Java Development Kit (JDK). By configuring specific demographic parameters and clinical modules, I generated over 1800 total patient records in JSON format. This process involved executing targeted CLI commands to model varying outbreak levels for the different hospitals, creating a privacy-compliant dataset for syndromic surveillance testing and public health simulation within the OpenEMR environment.
